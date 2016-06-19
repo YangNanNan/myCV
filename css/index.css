@@ -68,7 +68,7 @@ html, body {
     z-index: 100;
     width: 0.6rem;
     height: 0.6rem;
-    background: url("../img/music.svg")no-repeat;
+    background: url("../image/music.svg") no-repeat;
     background-size: 100% 100%;
 }
 .audio .audioMp3{
@@ -109,7 +109,7 @@ html, body {
     margin-left: -.24rem;
     width: .48rem;
     height: .36rem;
-    background: url("../img/web-swipe-tip.png") no-repeat;
+    background: url("../image/web-swipe-tip.png") no-repeat;
     background-size: 100% 100%;
 
     opacity: 1;
