@@ -360,6 +360,7 @@ html, body {
     margin-top: .1rem;
 }
 .pageThi span i{
+    display: block;
     font-size: 14px;
     font-weight: 500;
 }
@@ -539,13 +540,28 @@ html, body {
     margin-left: .3rem;
  }
 #page4 .self .list1 li{
-     -webkit-animation: rotateIn 7s both;
-     animation: rotateIn 7s both;
+     -webkit-animation: rotateIn 6s both;
+     animation: rotateIn 6s both;
      opacity: 1;
  }
+#page4 .self .list1 li:nth-child(1){
+    -webkit-animation: flipInY 7s both;
+    animation: flipInY 7s both;
+    opacity: 1;
+}
+#page4 .self .list1 li:nth-child(2){
+    -webkit-animation: zoomIn 8s both;
+    animation: zoomIn 8s both;
+    opacity: 1;
+}
 #page4 .self .list2 li{
     -webkit-animation: slideInUp 8s both;
     animation: slideInUp 8s both;
+    opacity: 1;
+}
+#page4 .self .list2 li:first-child{
+    -webkit-animation: bounceInDown 8s both;
+    animation: bounceInDown 8s both;
     opacity: 1;
 }
 #page4 .self p{
